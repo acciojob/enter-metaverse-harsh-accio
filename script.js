@@ -4,6 +4,7 @@ function changeToHeading() {
 	
 	const heading = document.createElement('h1')
 	heading.innerText="Entered Metaverse";
+	heading.id = "status";
 	
 	para.parentNode.replaceChild(heading,para);
 }
